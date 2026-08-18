@@ -1,0 +1,8 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+android {
+    namespace "expo.modules.guardianai"
+    compileSdk 35
+    defaultConfig { minSdk 24 }
+}

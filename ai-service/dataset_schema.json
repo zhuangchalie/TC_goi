@@ -1,0 +1,6 @@
+{
+  "fields": ["text", "sender", "type", "label", "attack_type", "language", "source"],
+  "label": {"0": "benign", "1": "scam"},
+  "attack_type_examples": ["bank_impersonation","otp_theft","investment","job_scam","government_impersonation","delivery","prize","romance","phishing_link","other"],
+  "privacy": "Do not train on private messages without consent and anonymization."
+}

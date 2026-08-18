@@ -1,0 +1,42 @@
+[
+  {
+    "name": "bank_otp_link",
+    "text": "NGAN HANG: Tai khoan cua ban se bi khoa. Vui long xac minh OTP tai https://example-login.com ngay.",
+    "expected_min_score": 70
+  },
+  {
+    "name": "job_scam",
+    "text": "Việc nhẹ lương cao, nhận thưởng hôm nay, chuyển khoản để kích hoạt.",
+    "expected_min_score": 50
+  },
+  {
+    "name": "benign",
+    "text": "Mai 7h gặp ở thư viện nhé.",
+    "expected_max_score": 39
+  },
+  {
+    "language": "en",
+    "text": "Your bank account is locked. Give me your verification code immediately or your account will be suspended.",
+    "expected": "SCAM"
+  },
+  {
+    "language": "en",
+    "text": "Congratulations, you won a prize. Pay a small processing fee today to receive your reward.",
+    "expected": "SCAM"
+  },
+  {
+    "language": "en",
+    "text": "Install AnyDesk and share your screen so I can secure your banking account.",
+    "expected": "SCAM"
+  },
+  {
+    "language": "en",
+    "text": "Please review the meeting notes and let me know if you have any questions.",
+    "expected": "SAFE"
+  },
+  {
+    "language": "en",
+    "text": "Your package is ready for pickup. Track it on the carrier website.",
+    "expected": "SAFE"
+  }
+]

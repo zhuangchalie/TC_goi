@@ -1,0 +1,16 @@
+{
+  "model_name": "guardian_scam_classifier",
+  "input": {
+    "text": "string",
+    "sender": "string",
+    "type": "sms|call"
+  },
+  "output": {
+    "scam_probability": "0..1",
+    "phishing_probability": "0..1",
+    "social_engineering_probability": "0..1",
+    "explanation_tokens": ["string"]
+  },
+  "deployment": "OpenVINO IR/ONNX",
+  "note": "Replace the baseline heuristic in main.py with a trained model before claiming ML accuracy."
+}
